@@ -39,13 +39,13 @@ delivered to your inbox with no login & no setup.
 ## Screenshots
 
 ### Landing Page
-![RIDGE Homepage](<img width="1763" height="4446" alt="Image" src="https://github.com/user-attachments/assets/658947d2-d704-4215-8f81-5d0203ed30fc" />)
+![RIDGE Homepage](assets/landing_page.jpeg)
 
 ### Generate Leads
-![Generate Leads Form](<img width="1763" height="1411" alt="Image" src="https://github.com/user-attachments/assets/815fc217-e4d4-4aa5-952e-dc3cf358cf7f" />)
+![Generate Leads Form](assets/search_interface.jpeg)
 
 ### Example Output
-![Spreadsheet Output](<img width="1919" height="915" alt="Image" src="https://github.com/user-attachments/assets/5f8d2d56-67ed-4b31-94c3-878ac2deb0b5" />)
+![Spreadsheet Output](assets/lead_results.png)
 
 ## Validated Results
 
