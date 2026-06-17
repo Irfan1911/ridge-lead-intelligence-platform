@@ -5,7 +5,7 @@
 RIDGE is a lead generation tool that converts a Google Maps search into a 
 spreadsheet of companies with contact emails extracted automatically from 
 their websites. Paste a search URL, get a contact-ready spreadsheet 
-delivered to your inbox — no login, no setup.
+delivered to your inbox with no login & no setup.
 
 ## What It Does
 
@@ -39,13 +39,13 @@ delivered to your inbox — no login, no setup.
 ## Screenshots
 
 ### Landing Page
-![RIDGE Homepage](<img width="1763" height="4446" alt="image" src="https://github.com/user-attachments/assets/3cc3f95e-f4ba-4c16-979e-ef8ccf4fa978" />)
+![RIDGE Homepage](<img width="1763" height="4446" alt="Image" src="https://github.com/user-attachments/assets/658947d2-d704-4215-8f81-5d0203ed30fc" />)
 
 ### Generate Leads
-![Generate Leads Form](<img width="1763" height="1411" alt="image" src="https://github.com/user-attachments/assets/bedda732-9e2d-44aa-b9d7-00d1c6be37a2" />)
+![Generate Leads Form](<img width="1763" height="1411" alt="Image" src="https://github.com/user-attachments/assets/815fc217-e4d4-4aa5-952e-dc3cf358cf7f" />)
 
 ### Example Output
-![Spreadsheet Output](<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/c094da74-9a1e-4ead-8874-e96e0d1b9856" />)
+![Spreadsheet Output](<img width="1919" height="915" alt="Image" src="https://github.com/user-attachments/assets/5f8d2d56-67ed-4b31-94c3-878ac2deb0b5" />)
 
 ## Validated Results
 
