@@ -45,7 +45,7 @@ delivered to your inbox with no login & no setup.
 ![Generate Leads Form](assets/search_interface.jpeg)
 
 ### Example Output
-![Spreadsheet Output](assets/lead_results.png)
+![Spreadsheet Output](assets/lead_results2.jpeg)
 
 ## Validated Results
 
