@@ -1,11 +1,26 @@
-# RIDGE — Relations & Internship Discovery Generation Engine
+# RIDGE — Automated Lead Discovery & Contact Enrichment System
 
 **Live:** [dynamis-ai.com](https://www.dynamis-ai.com)
 
-RIDGE is a lead generation tool that converts a Google Maps search into a 
-spreadsheet of companies with contact emails extracted automatically from 
-their websites. Paste a search URL, get a contact-ready spreadsheet 
-delivered to your inbox with no login & no setup.
+RIDGE is a workflow automation system that transforms business discovery from a manual research task into an automated pipeline.
+
+The platform transforms Google Maps searches into structured company lists, automatically enriches them with contact details, and delivers a ready‑to‑use spreadsheet for outreach or analysis.
+
+The project was built to explore how workflow automation, AI-assisted processing, and low-code orchestration can eliminate repetitive lead generation tasks that are typically performed manually.
+
+## Problem
+
+Finding potential business leads often requires multiple disconnected steps:
+
+1. Searching for companies
+2. Collecting business information
+3. Visiting websites individually
+4. Locating contact details
+5. Organizing results into spreadsheets
+
+This process becomes increasingly time-consuming when repeated across dozens or hundreds of companies.
+
+RIDGE was designed to automate this workflow from end to end.
 
 ## What It Does
 
@@ -25,6 +40,20 @@ delivered to your inbox with no login & no setup.
 **Storage & delivery:** Google Sheets API, Gmail  
 **Hosting:** Vercel
 
+## System Architecture
+
+RIDGE is built as a workflow-driven system using n8n as the orchestration layer.
+
+Pipeline:
+
+Search Request
+→ Lead Discovery
+→ Contact Enrichment
+→ Spreadsheet Generation
+→ Email Delivery
+
+The architecture separates user interaction from workflow execution, allowing long-running enrichment jobs to complete asynchronously.
+
 ## Architecture Highlights
 - **Ping-pong workflow pattern** — two coordinated n8n workflows 
   (Email Enricher + Enricher Manager) recursively process leads in 
@@ -32,9 +61,9 @@ delivered to your inbox with no login & no setup.
   (tested up to 200 companies per run)
 - **Per-user dynamic spreadsheet creation** — each request generates 
   an isolated Google Sheet rather than writing to a shared dataset
-- **Frontend-only architecture** — this repository contains the 
-  Next.js frontend. The automation backend runs on a self-hosted 
-  n8n instance and is not included in this repo
+- **Low-Code Automation Architecture** — The project combines:
+  n8n, Google Sheets API, Gmail API, SerpAPI & Next.js to create a production-style 
+  automation workflow with minimal operational overhead.
 
 ## Screenshots
 
@@ -56,5 +85,6 @@ digital marketing, logistics):
 - Full pipeline (search → enriched spreadsheet) completes in 
   20–30 minutes for 150–200 company datasets
 
-## Note
-This repository serves as a project showcase. The live tool can be tested directly at the link above.
+## Repository Scope
+This repository serves as a project showcase and contains the frontend application only.
+The workflow automation engine, integrations, and supporting infrastructure are not included.
